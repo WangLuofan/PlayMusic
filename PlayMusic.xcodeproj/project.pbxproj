@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B341E7C31E13A0C100832AE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B341E7C21E13A0C100832AE7 /* main.m */; };
+		B341E7C61E13A0C100832AE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B341E7C51E13A0C100832AE7 /* AppDelegate.m */; };
+		B341E7C91E13A0C100832AE7 /* AudioPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B341E7C81E13A0C100832AE7 /* AudioPlayerViewController.m */; };
+		B341E7CC1E13A0C100832AE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B341E7CA1E13A0C100832AE7 /* Main.storyboard */; };
+		B341E7CE1E13A0C100832AE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B341E7CD1E13A0C100832AE7 /* Assets.xcassets */; };
+		B341E7D11E13A0C100832AE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B341E7CF1E13A0C100832AE7 /* LaunchScreen.storyboard */; };
+		B341E7DB1E13BD0300832AE7 /* FeaturedAudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = B341E7DA1E13BD0300832AE7 /* FeaturedAudioStreamer.m */; };
+		B3630C5B1E14B10A001E3816 /* 最佳损友.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B3630C591E14B10A001E3816 /* 最佳损友.mp3 */; };
+		B38A0AE01E1B777200BE44C0 /* 遥远的她.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B38A0ADF1E1B777200BE44C0 /* 遥远的她.mp3 */; };
+		B38A0AE31E1B79EE00BE44C0 /* AudioListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B38A0AE21E1B79EE00BE44C0 /* AudioListTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B341E7BE1E13A0C100832AE7 /* PlayMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B341E7C21E13A0C100832AE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B341E7C41E13A0C100832AE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B341E7C51E13A0C100832AE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B341E7C71E13A0C100832AE7 /* AudioPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioPlayerViewController.h; sourceTree = "<group>"; };
+		B341E7C81E13A0C100832AE7 /* AudioPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerViewController.m; sourceTree = "<group>"; };
+		B341E7CB1E13A0C100832AE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B341E7CD1E13A0C100832AE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B341E7D01E13A0C100832AE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B341E7D21E13A0C100832AE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B341E7D91E13BD0300832AE7 /* FeaturedAudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeaturedAudioStreamer.h; sourceTree = "<group>"; };
+		B341E7DA1E13BD0300832AE7 /* FeaturedAudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeaturedAudioStreamer.m; sourceTree = "<group>"; };
+		B3630C591E14B10A001E3816 /* 最佳损友.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "最佳损友.mp3"; sourceTree = "<group>"; };
+		B38A0ADF1E1B777200BE44C0 /* 遥远的她.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "遥远的她.mp3"; sourceTree = "<group>"; };
+		B38A0AE11E1B79EE00BE44C0 /* AudioListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioListTableViewController.h; sourceTree = "<group>"; };
+		B38A0AE21E1B79EE00BE44C0 /* AudioListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioListTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B341E7BB1E13A0C100832AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B341E7B51E13A0C100832AE7 = {
+			isa = PBXGroup;
+			children = (
+				B341E7D81E13A0CD00832AE7 /* FeaturedAudioStreamer */,
+				B341E7C01E13A0C100832AE7 /* PlayMusic */,
+				B3630C571E14B0FD001E3816 /* Raw */,
+				B341E7BF1E13A0C100832AE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B341E7BF1E13A0C100832AE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B341E7BE1E13A0C100832AE7 /* PlayMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B341E7C01E13A0C100832AE7 /* PlayMusic */ = {
+			isa = PBXGroup;
+			children = (
+				B341E7C41E13A0C100832AE7 /* AppDelegate.h */,
+				B341E7C51E13A0C100832AE7 /* AppDelegate.m */,
+				B341E7C71E13A0C100832AE7 /* AudioPlayerViewController.h */,
+				B341E7C81E13A0C100832AE7 /* AudioPlayerViewController.m */,
+				B38A0AE11E1B79EE00BE44C0 /* AudioListTableViewController.h */,
+				B38A0AE21E1B79EE00BE44C0 /* AudioListTableViewController.m */,
+				B341E7CA1E13A0C100832AE7 /* Main.storyboard */,
+				B341E7CD1E13A0C100832AE7 /* Assets.xcassets */,
+				B341E7CF1E13A0C100832AE7 /* LaunchScreen.storyboard */,
+				B341E7D21E13A0C100832AE7 /* Info.plist */,
+				B341E7C11E13A0C100832AE7 /* Supporting Files */,
+			);
+			path = PlayMusic;
+			sourceTree = "<group>";
+		};
+		B341E7C11E13A0C100832AE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B341E7C21E13A0C100832AE7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B341E7D81E13A0CD00832AE7 /* FeaturedAudioStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				B341E7D91E13BD0300832AE7 /* FeaturedAudioStreamer.h */,
+				B341E7DA1E13BD0300832AE7 /* FeaturedAudioStreamer.m */,
+			);
+			name = FeaturedAudioStreamer;
+			sourceTree = "<group>";
+		};
+		B3630C571E14B0FD001E3816 /* Raw */ = {
+			isa = PBXGroup;
+			children = (
+				B38A0ADF1E1B777200BE44C0 /* 遥远的她.mp3 */,
+				B3630C591E14B10A001E3816 /* 最佳损友.mp3 */,
+			);
+			name = Raw;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B341E7BD1E13A0C100832AE7 /* PlayMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B341E7D51E13A0C100832AE7 /* Build configuration list for PBXNativeTarget "PlayMusic" */;
+			buildPhases = (
+				B341E7BA1E13A0C100832AE7 /* Sources */,
+				B341E7BB1E13A0C100832AE7 /* Frameworks */,
+				B341E7BC1E13A0C100832AE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayMusic;
+			productName = PlayMusic;
+			productReference = B341E7BE1E13A0C100832AE7 /* PlayMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B341E7B61E13A0C100832AE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "王落凡";
+				TargetAttributes = {
+					B341E7BD1E13A0C100832AE7 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 29D7F8VWD7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B341E7B91E13A0C100832AE7 /* Build configuration list for PBXProject "PlayMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B341E7B51E13A0C100832AE7;
+			productRefGroup = B341E7BF1E13A0C100832AE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B341E7BD1E13A0C100832AE7 /* PlayMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B341E7BC1E13A0C100832AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38A0AE01E1B777200BE44C0 /* 遥远的她.mp3 in Resources */,
+				B3630C5B1E14B10A001E3816 /* 最佳损友.mp3 in Resources */,
+				B341E7D11E13A0C100832AE7 /* LaunchScreen.storyboard in Resources */,
+				B341E7CE1E13A0C100832AE7 /* Assets.xcassets in Resources */,
+				B341E7CC1E13A0C100832AE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B341E7BA1E13A0C100832AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B341E7C91E13A0C100832AE7 /* AudioPlayerViewController.m in Sources */,
+				B341E7C61E13A0C100832AE7 /* AppDelegate.m in Sources */,
+				B341E7C31E13A0C100832AE7 /* main.m in Sources */,
+				B38A0AE31E1B79EE00BE44C0 /* AudioListTableViewController.m in Sources */,
+				B341E7DB1E13BD0300832AE7 /* FeaturedAudioStreamer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B341E7CA1E13A0C100832AE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B341E7CB1E13A0C100832AE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B341E7CF1E13A0C100832AE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B341E7D01E13A0C100832AE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B341E7D31E13A0C100832AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B341E7D41E13A0C100832AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B341E7D61E13A0C100832AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29D7F8VWD7;
+				INFOPLIST_FILE = PlayMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangluofan.PlayMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B341E7D71E13A0C100832AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29D7F8VWD7;
+				INFOPLIST_FILE = PlayMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangluofan.PlayMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B341E7B91E13A0C100832AE7 /* Build configuration list for PBXProject "PlayMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B341E7D31E13A0C100832AE7 /* Debug */,
+				B341E7D41E13A0C100832AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B341E7D51E13A0C100832AE7 /* Build configuration list for PBXNativeTarget "PlayMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B341E7D61E13A0C100832AE7 /* Debug */,
+				B341E7D71E13A0C100832AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B341E7B61E13A0C100832AE7 /* Project object */;
+}
