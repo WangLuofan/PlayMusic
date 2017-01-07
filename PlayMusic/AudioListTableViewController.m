@@ -22,7 +22,7 @@
     
     self.audioPathURLs = @[[[NSBundle mainBundle] URLForResource:@"遥远的她" withExtension:@"mp3"],
                            [[NSBundle mainBundle] URLForResource:@"最佳损友" withExtension:@"mp3"],
-                           [NSURL URLWithString:@"http://121.42.55.166:8082/javaxieyi/show!play.do?id=20161209161553742a941c7bae90f42560a2&flag=course&sid=05B9E129215141FBF24B5C8C60DFE536&ver=470"]
+                           [NSURL URLWithString:@"http://116.62.38.142:8082/gwxieyi/show!play.do?id=201701061004470504bd3b22d7c0e47a7f23&flag=course&sid=79D96EBF8D15DF3967C794D7C4B988EC&ver=470"]
                            ];
     
     return ;

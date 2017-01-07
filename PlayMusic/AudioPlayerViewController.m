@@ -52,6 +52,7 @@
     [super viewDidLoad];
     
     self.audioStreamer = [[FeaturedAudioStreamer alloc] initWithAudioURL:self.audioPathURL useCache:YES];
+    [self.audioStreamer clearCaches];
     [self.audioProgressSlider setThumbImage:[UIImage imageNamed:@"audio_progress"] forState:UIControlStateNormal];
     
     CABasicAnimation* rotateAnimation = [CABasicAnimation animation];
@@ -164,8 +165,8 @@
     [_audioProgressTimer invalidate];
     _audioProgressTimer = nil;
     
-    [_audioDisplayLink invalidate];
     [_audioDisplayLink removeFromRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
+    [_audioDisplayLink invalidate];
     _audioDisplayLink = nil;
     return ;
 }

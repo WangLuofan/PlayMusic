@@ -53,5 +53,6 @@ typedef NS_ENUM(NSUInteger, FeaturedAudioStreamerPlayState) {
 -(NSString*)GetLastError;
 
 -(void)destroyAudioStreamer;
+-(void)clearCaches;
 
 @end

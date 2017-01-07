@@ -290,6 +290,11 @@ typedef struct _AudioQueueBufferRef {
     return 0.0f;
 }
 
+-(void)clearCaches {
+    [_cacheSystem clearAllCache];
+    return ;
+}
+
 -(void)startInternal {
     if(_audioStreamerPlayMode == FeaturedAudioStreamerPlayModeStream) {
         if(audioDataReadStreamRef == NULL && (_state == FeaturedAudioStreamerPlayStateInitialized || _state == FeaturedAudioStreamerPlayStateSeeking)) {
